@@ -1,0 +1,14 @@
+## **************************************************
+## Your changes for task 2 go in this file.
+##
+## See below.
+##
+# # You must have completed task 1 before starting on this.
+## **************************************************
+
+image: "smblott/dcu-docker-gitlab-ci"
+
+test:
+   script:
+      - make rpn
+      - make random
